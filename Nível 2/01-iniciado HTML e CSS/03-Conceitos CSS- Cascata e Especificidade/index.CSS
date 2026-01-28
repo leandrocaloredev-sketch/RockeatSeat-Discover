@@ -1,0 +1,14 @@
+
+p#unico-1{
+    color: white;
+}
+p.qualquer{
+    color: green;
+}
+p{
+    color: red;
+}
+
+body{
+    background: blue;
+}
