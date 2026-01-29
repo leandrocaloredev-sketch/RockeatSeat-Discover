@@ -1,0 +1,18 @@
+body{
+  /*
+    background-image: url(./assets/bg-moile.jpg); /* adiciona a imagem no fundo 
+    background-repeat: no-repeat; /* evita que a imagem se repita 
+    background-position: top center; /* centraliza a imagem, top sendo o eixo x e center o eixo y 
+    background-size : cover; /* ajusta o tamanho da imagem para cobrir todo o fundo 
+  */
+
+  /*background: color image repeat position/size*/
+ background : url(./assets/bg-moile.jpg) no-repeat top center/cover;
+}
+
+#container{
+    width: 360px;            /* largura da caixa */
+    height: 712px;               /* altura da caixa */
+    border: 1px solid red;         /* borda da caixa */
+    margin:  auto;       /* centraliza a caixa horizontalmente */
+}

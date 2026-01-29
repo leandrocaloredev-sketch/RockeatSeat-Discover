@@ -1,0 +1,18 @@
+#container{
+    width: 360px;            /* largura da caixa */               /*  height= altura da caixa */
+    border: 1px solid red;         /* borda da caixa */
+    margin:  auto;       /* centraliza a caixa horizontalmente */
+
+   /* display: block;  define o elemento como bloco */
+}
+
+#profile{
+    width: 112px;
+}
+
+a{
+    display: block;
+}
+/* em elementos inline, o margin auto nao funciona */
+/*diplay block faz com que o elemento ocupe toda a largura disponivel*/
+/* inline-block mantem as propiedades inline, mas tambem permite manter algumas propriedades block/*
