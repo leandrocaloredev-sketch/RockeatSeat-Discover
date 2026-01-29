@@ -1,0 +1,24 @@
+ul{
+
+    list-style: none;
+
+    display: flex; /* Define o contêiner como um contêiner flexível */
+    flex-direction: column; /* Define a direção dos itens flex como coluna (vertical) */
+    gap: 16px; /* Adiciona um espaçamento de 16 pixels entre os itens flex */
+}
+
+ul li a {
+    display: flex;
+    border: 1px solid red;
+
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    justify-content: center; /* Alinha os itens no centro horizontalmente */
+    padding: 16px 24px; /* Adiciona um espaçamento interno de 16 pixels na vertical e 24 pixels na horizontal */
+
+    background: rgba(255, 255, 255, 0.1); /* Define uma cor de fundo branca com 10% de opacidade */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Define uma borda branca com 20% de opacidade */
+    border-radius: 8px; /* Adiciona cantos arredondados com raio de 8 pixels */
+
+    backdrop-filter: blur(5px); /* Aplica um efeito de desfoque ao fundo atrás do elemento */
+    -webkit-backdrrop-filter: blur(5px); /* Aplica um efeito de desfoque ao fundo atrás do elemento para navegadores WebKit */  
+}

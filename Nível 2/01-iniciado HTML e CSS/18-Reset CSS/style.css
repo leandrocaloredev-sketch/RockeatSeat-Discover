@@ -1,0 +1,5 @@
+*{
+    margin: 0; /* [*] é um seletor universal que seleciona todos os elementos da página */
+    padding: 0; /* Remove o espaçamento interno padrão de todos os elementos */
+    box-sizing: border-box; /* Define o modelo de caixa para incluir bordas e padding no tamanho total dos elementos */
+}

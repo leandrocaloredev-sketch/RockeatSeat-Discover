@@ -1,0 +1,10 @@
+body*{
+    font-family:'inter' sans-serif; /* Aplica a fonte 'Inter' ao corpo inteiro da página */
+    color: white;
+}
+
+ #profile p{
+    font-weight: 500; /* Define a espessura da fonte como média */
+    font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+    line-height: 24px;  /* Define a altura da linha como 24 pixels */
+ }

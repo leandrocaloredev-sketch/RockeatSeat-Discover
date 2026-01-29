@@ -1,0 +1,12 @@
+/* links */
+ul{
+    list-style: none;
+
+    display: flex; /* Define o contêiner como um contêiner flexível */
+   
+}
+ul li a {
+    display: flex;
+    border: 1px solid red;
+
+}

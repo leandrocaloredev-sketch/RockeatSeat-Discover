@@ -1,0 +1,15 @@
+ul{
+    list-style: none;
+
+    display: flex; /* Define o contêiner como um contêiner flexível */
+    flex-direction: column; /* Define a direção dos itens flex como coluna (vertical) */
+    gap: 16px; /* Adiciona um espaçamento de 16 pixels entre os itens flex */
+
+}
+ul li a {
+    display: flex;
+    border: 1px solid red;
+
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    justify-content: center; /* Alinha os itens no centro horizontalmente */
+}

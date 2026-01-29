@@ -1,0 +1,29 @@
+body{
+    background: url(./assets/bg-mobile.jpg) no-repeat top canter/cover;
+}
+
+body *{
+    font-family: 'Inter', sans-serif; /* Aplica a fonte 'Inter' ao corpo inteiro da página */
+    color: white;
+}
+
+#container{ /* container é uma caixa que envolve o que foi selecionando */
+    width: 360px;
+  /*  border: 1px solid red; apenas para visualizar a borda do container */
+    margin: 56px auto 0 auto; /*quando tem 4 propriedades, a ordem é: cima, direita, baixo, esquerda, 56px de cima,primeiro auto direita, 0 baixo, segundo auto esquerda */
+}
+
+#profile{ /* profile é uma caixa que envolve o que foi selecionando */
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img { /* seleciona a imagem dentro do id profile, fica dentro da caixa */
+    width: 112px;
+}
+
+#profile p{ /* seleciona o parágrafo 'texto/frase' dentro do id profile, fica dentro da caixa */
+    font-weight: 500; /* Define a espessura da fonte como média */
+    line-height: 24px; /* Define a altura da linha como 24 pixels */
+    margin-top: 8px;  /* Adiciona uma margem no top de 8 pixels ao parágrafo */
+}
