@@ -1,0 +1,68 @@
+body{
+    background: url(./assets/bg-mobile.jpg) no-repeat top canter/cover;
+}
+
+body *{
+    font-family: 'Inter', sans-serif; /* Aplica a fonte 'Inter' ao corpo inteiro da página */
+    color: white;
+}
+
+#container{ /* container é uma caixa que envolve o que foi selecionando */
+    width: 360px;
+  /*  border: 1px solid red; apenas para visualizar a borda do container */
+    margin: 56px auto 0 auto; /*quando tem 4 propriedades, a ordem é: cima, direita, baixo, esquerda, 56px de cima,primeiro auto direita, 0 baixo, segundo auto esquerda */
+    padding: 0 24px;
+}
+
+#profile{ /* profile é uma caixa que envolve o que foi selecionando */
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img { /* seleciona a imagem dentro do id profile, fica dentro da caixa */
+    width: 112px;
+}
+
+#profile p{ /* seleciona o parágrafo 'texto/frase' dentro do id profile, fica dentro da caixa */
+    font-weight: 500; /* Define a espessura da fonte como média */
+    line-height: 24px; /* Define a altura da linha como 24 pixels */
+    margin-top: 8px;  /* Adiciona uma margem no top de 8 pixels ao parágrafo */
+}
+
+ul{
+
+    list-style: none;
+
+    display: flex; /* Define o contêiner como um contêiner flexível */
+    flex-direction: column; /* Define a direção dos itens flex como coluna (vertical) */
+    gap: 16px; /* Adiciona um espaçamento de 16 pixels entre os itens flex */
+}
+
+ul li a {
+    display: flex;
+    border: 1px solid red;
+
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    justify-content: center; /* Alinha os itens no centro horizontalmente */
+    padding: 16px 24px; /* Adiciona um espaçamento interno de 16 pixels na vertical e 24 pixels na horizontal */
+
+    background: rgba(255, 255, 255, 0.1); /* Define uma cor de fundo branca com 10% de opacidade */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Define uma borda branca com 20% de opacidade */
+    border-radius: 8px; /* Adiciona cantos arredondados com raio de 8 pixels */
+
+    backdrop-filter: blur(5px); /* Aplica um efeito de desfoque ao fundo atrás do elemento */
+    -webkit-backdrop-filter: blur(5px); /* Aplica um efeito de desfoque ao fundo atrás do elemento para navegadores WebKit */  
+
+    text-decoration: none; /* line-through linha no meio, underline linha em baixo, overline linha em cima */
+    font-weight: 500; /* Define a espessura da fonte como média */
+
+    transition: background 0.5s; /* Adiciona uma transição suave de 0.5 segundos para a propriedade de fundo */
+}
+
+
+
+/*pseudo selector */
+ul li a:hover { /* Quando o usuário passar o mouse sobre o link coloca a borda */
+    background: rgba(255, 255, 255, 0.05); 
+    border: 1.5px solid white;
+}
