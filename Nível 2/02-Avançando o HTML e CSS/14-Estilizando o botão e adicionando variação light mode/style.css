@@ -1,0 +1,30 @@
+:root{     /* variáveis para light e dark mode */
+    --text-color: white;
+    --bg-url: url(./assets/gb-mobile-light.jpg);
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --surface-color: rgba(255,255,255,0.1);
+    --surface-color-hover: rgba(0,0,0,0.2);
+    --highlight-color: rgba(255,255,255,0.2);
+    --switch-bg: url(./assets/moon-star.svg);
+}
+
+.light{      /* variáveis para light e dark mode */
+    --text-color: black;
+    --bg-url: url(./assets/gb-mobile-light.jpg);
+    --stroke-color: rgba(0, 0, 0, 0.5);
+    --surface-color: rgba(0,0,0,0.05);
+    --suface-color-hover: rgba(0,0,0,0.02);
+    --highlight-color: rgba(0,0,0,0.1);
+    --switch-bg: url(./assets/sun.svg);
+}
+ 
+
+/* swicth */
+
+  #switch button {
+  height: 32px;
+  width: 32px;
+  background: white var(--switch-bg) no-repeat center ;
+    border-radius: 16px;
+    border: 0;
+  }

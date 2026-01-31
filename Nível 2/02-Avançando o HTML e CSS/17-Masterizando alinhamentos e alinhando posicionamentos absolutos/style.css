@@ -1,0 +1,58 @@
+:root{     /* variáveis para light e dark mode */
+    --text-color: white;
+    --bg-url: url(./assets/gb-mobile-light.jpg);
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --surface-color: rgba(255,255,255,0.1);
+    --surface-color-hover: rgba(0,0,0,0.2);
+    --highlight-color: rgba(255,255,255,0.2);
+    --switch-bg: url(./assets/moon-star.svg);
+}
+
+.light{      /* variáveis para light e dark mode */
+    --text-color: black;
+    --bg-url: url(./assets/gb-mobile-light.jpg);
+    --stroke-color: rgba(0, 0, 0, 0.5);
+    --surface-color: rgba(0,0,0,0.05);
+    --suface-color-hover: rgba(0,0,0,0.02);
+    --highlight-color: rgba(0,0,0,0.1);
+    --switch-bg: url(./assets/sun.svg);
+}
+ 
+
+/* swicth */
+
+  #switch {
+    position: relative; /* Define o posicionamento do contêiner como relativo para que os elementos filhos com posicionamento absoluto sejam posicionados em relação a ele */
+    width: 64px;
+
+    margin: 4px auto;
+
+
+  }
+
+  #switch button { /*   o botão que troca o modo light/dark */
+  height: 32px;
+  width: 32px;
+  background: white var(--switch-bg) no-repeat center ;
+    border-radius: 16px;
+    border: 0;
+
+    position: absolute; /* Define o posicionamento do botão como absoluto em relação ao elemento pai mais próximo que tenha posicionamento relativo */
+    top: 50%; /* Posiciona o botão verticalmente no centro do contêiner pai */
+    right: 0; /* Posiciona o botão na extremidade direita do contêiner pai */
+    transform: translateY(-50%); /* Ajusta a posição vertical do botão para que fique perfeitamente centralizado */
+    z-index: 1; /* Define a ordem de empilhamento do botão para garantir que ele fique acima de outros elementos */
+
+  }
+
+
+#switch span{ /*   a faixa onde o botão fica */
+    display: block;
+
+width: 64px;
+height: 24px;
+background: var(--surface-color);
+border: 1px solid rgba(255, 255, 255, 0.5);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+}
