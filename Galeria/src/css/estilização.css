@@ -1,0 +1,94 @@
+.galeria{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: white;
+  width: 360px;
+  height: 350px;
+  max-width: 900px;
+  max-height: 900px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding:  15px;
+  margin: 50px;
+  transition: 0.3s;
+}
+
+.card:hover{
+  transform: scale(1.05);  
+} 
+
+.card img:hover{
+    transform: scale(1.03);
+}
+
+.card img{
+  width: 100%;
+  height: 99%;
+  border-radius: 1px;
+}
+.modal{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.7);
+}
+
+.modal-conteudo{
+  background:white;
+  height: auto;
+  max-width: 900px;
+  max-height: 900px;
+  padding:20px;
+  margin:15px auto;
+  border-radius:8px;
+  text-align:center;
+}
+.modal-conteudo img{
+  width:65%;
+  height:auto;
+  border-radius:10px;
+}
+
+.fechar{
+  cursor:pointer;
+  float:right;
+  font-size:20px; 
+}
+
+.Artista1{
+  display:flex;
+  width:370px;
+  height:auto;
+}
+
+.Artista2{
+  display: flex;
+  width: 370px;
+}
+
+.Artista3{
+  display:flex;
+  width: 370px;
+}
+
+.frase{
+    color: white;
+}
+
+.frase1{
+    color: white;
+}
+
+.frase2{
+    color: white;
+}
+
+

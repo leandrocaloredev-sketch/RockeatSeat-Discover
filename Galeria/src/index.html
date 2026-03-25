@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Galeria de Artístas</title>
+  <link rel="stylesheet" href="../src/css/estilização.css">
+  <link rel="stylesheet" href="../src/css/global.css">
+   
+</head>
+<body>
+
+<h1><mark>Brasil em Arte</mark></h1>
+
+<div class="galeria">
+
+ 
+
+  <div class="card">
+    <img src="../public/ator1.PNG" onclick="abrirModal('ator1')">
+    <h2><mark>Anita Malfatti</mark></h2>
+    
+
+
+      <details class="Artista1">
+      
+      <Summary>
+     <em> Sobre o artista </em>
+    </Summary>
+          <p class="frase"> <strong>Anita Malfatti (1889–1964) foi uma importante pintora brasileira e uma das precursoras do modernismo no Brasil. Ela nasceu em São Paulo e estudou arte na Europa e nos Estados Unidos, onde teve contato com estilos modernos como o Expressionismo.
+
+Em 1917, Anita realizou uma exposição em São Paulo que apresentou pinturas com cores fortes, formas diferentes e muita expressão. Na época, essas obras foram muito criticadas, mas ajudaram a iniciar uma grande mudança na arte brasileira.</strong></p>
+      
+    </details>
+
+   </div>
+
+ 
+  
+
+  <div class="card">
+    <img src="../public/ator2.PNG" onclick="abrirModal('ator2')">
+    <h2><mark>Emanoel Araújo</mark></h2>
+
+
+       <details class="Artista2">
+      <summary>
+   <em>    Sobre o artista  </em>
+      </summary>
+       <p class="frase1"> <strong> Emanoel Araújo (1940–2022) foi um importante artista plástico, escultor, gravador e curador brasileiro. Ele nasceu em Santo Amaro e ficou conhecido por suas obras que valorizam a cultura afro-brasileira, a história e a identidade negra.
+
+Ao longo da carreira, produziu muitas esculturas, gravuras e pinturas, geralmente usando formas geométricas e madeira como material principal. Seu trabalho buscava destacar a contribuição da cultura africana na formação do Brasil.
+
+Além de artista, Emanoel Araújo também foi diretor do Museu Afro Brasil, em São Paulo, um museu dedicado à história e à cultura afro-brasileira.</strong></p>
+    </details>
+  
+  </div>
+
+
+
+  <div class="card">
+    <img src="../public/ator3.PNG" onclick="abrirModal('ator3')">
+    <h2><mark>Beatriz Milhazes</mark></h2>
+  
+     <details class="Artista3"> 
+       
+    <summary>
+   <em>  Sobre o Artista  </em>
+    </summary>
+    <p class="frase2"> <strong>Beatriz Milhazes (1960–) é uma importante artista plástica brasileira, conhecida principalmente por suas pinturas coloridas e cheias de formas geométricas. Ela nasceu em Rio de Janeiro e se tornou uma das artistas brasileiras mais reconhecidas internacionalmente.
+
+Suas obras misturam arte contemporânea com elementos da cultura brasileira, como cores fortes, padrões decorativos, flores e referências ao carnaval e à arte popular.
+
+Características das obras
+uso de cores muito vibrantes
+presença de círculos e formas geométricas
+inspiração na cultura brasileira e na natureza</strong></p>
+  </details>
+
+
+  </div>
+
+</div>
+
+
+
+ 
+  
+
+
+  
+
+
+   
+ 
+
+
+
+
+
+
+
+<div id="modal" class="modal">
+
+  <div class="modal-conteudo">
+
+    <span class="fechar" onclick="fecharModal()">X</span>
+
+    <h2 id="titulo"></h2>
+
+    <p id="descricao"></p>
+
+    <img id="obra">
+
+
+
+  </div>
+</div>
+
+<script src="../src/js/script.js"></script>
+
+
+</body>
+</html>
