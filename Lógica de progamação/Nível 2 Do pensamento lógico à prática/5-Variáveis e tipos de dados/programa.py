@@ -4,4 +4,4 @@
 #dinamicamente tipada
 #não precisa declarar
 
-x = 12
+x = 28

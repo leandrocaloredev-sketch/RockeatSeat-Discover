@@ -19,4 +19,4 @@ print("Sem pensar duas vezes, o(a) " + substantivo + " pegou seu " + objeto + " 
 print('"Preciso consertar isso antes que o sistema fique ' + adjetivo2 + '!" exclamou o(a) ' + substantivo + '. Depois de ' + numero + ' tentativas, finalmente o computador respondeu: ')
 print('"O problema foi causado por um ' + animal + ' que estava no sistema!"')
 print('Com isso, o problema foi resolvido, e o(a) ' + substantivo + ' ganhou o prêmio de ' + objeto2 + ' mais inovador do ano.')
-print('Moral da história: sempre leve seu ' + objeto3 + ' para o escritório, porque nunca se sabe quando você vai precisar!')
+print('Moral da história: sempre leve seu ' + objeto3 + ' para o escritório, porque nunca se sabe quando você vai precisar!') 
